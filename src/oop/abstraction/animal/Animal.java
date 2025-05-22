@@ -1,8 +1,20 @@
 package oop.abstraction.animal;
 
-public abstract class Animal {
+
+
+
+// Абстракция — это концепция, с помощью которой мы скрываем сложные детали и показываем только важную часть объекта.
+
+public abstract class Animal { // class abstract
     public void eat(){
-        System.out.println("Animal eat");
+        System.out.println("Animal eat"); // метод с реализаций
     }
-    public  abstract  void makeSound(); // <- абстрактный метод
+    public  abstract  void makeSound(); // <- абстрактный метод без реализаций
 }
+
+
+// Особенности абстрактных классов:
+// Могут содержать абстрактные и реализованные методы.
+// Могут иметь поля (переменные).
+// Можно использовать модификаторы ( private , protected, и.т.д)
+// Можно наследовать только один абстрактный класс (Java не поддерживает множественное наследование классов).
