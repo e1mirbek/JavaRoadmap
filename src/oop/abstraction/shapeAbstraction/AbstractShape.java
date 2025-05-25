@@ -8,19 +8,18 @@ public abstract class AbstractShape {
          this.color = color;
      }
 
-    // Абстрактные методы - должны быть реализованы в подклассах !!!
-
-     public abstract  double calculateArea(); // метод площадь
+     // Методы
+     public abstract  double calculateArea();
      public abstract  double calculatePerimeter();
      public String getColor() {
          return  color;
      }
 
+
+     // Информация
      public void displayInfo () {
          System.out.println("Цвет фигуры : " + color);
          System.out.println("Площадь : " + calculateArea());
          System.out.println("Периметр : " + calculatePerimeter());
      }
-
-
 }
