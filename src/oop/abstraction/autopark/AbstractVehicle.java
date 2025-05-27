@@ -6,7 +6,7 @@ public abstract class AbstractVehicle {
     protected String model;
     protected int year;
 
-    AbstractShape (String model, int year) {
+    AbstractVehicle (String model, int year) {
         this.model = model;
         this.year = year;
     }
@@ -14,9 +14,7 @@ public abstract class AbstractVehicle {
     // абстрактные методы
     public abstract void start ();
     public abstract void stop  ();
-    public abstract double caclulateFualConsumpttion(double distance) {
-
-    }
+    public abstract double caclulateFualConsumpttion(double distance);
 
     // конкретные методы
     public String getModel () {
@@ -32,5 +30,4 @@ public abstract class AbstractVehicle {
         System.out.println("Модель : " + model);
         System.out.println("Год выпуска : " + year);
     }
-
 }
