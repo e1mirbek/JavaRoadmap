@@ -1,22 +1,31 @@
 package oop.abstraction.autopark;
 
-import oop.abstraction.shapeAbstraction.AbstractShape;
-
-public class Motorcycle extends AbstractShape {
+public class Motorcycle extends AbstractVehicle {
     private boolean hasSidecar;
 
-    public Motorcycle (boolean hasSidecar) {
+    public Motorcycle (String model, int year, boolean hasSidecar) {
+        super(model, year);
         this.hasSidecar = hasSidecar;
     }
 
+    // методы
     @Override
-    public void stop () {
-        System.out.println("Мотоцикл : " + model + "остановливается");
+    public  void start () {
+        System.out.println("Мотоцикл" + model + "заводится");
     }
 
-    public double calculateFuelConsumption () {
-        return distance * 0.05;
+
+    @Override
+    public void stop () {
+        System.out.println("Мотоцикл " + model + "остановливается");
     }
+
+    @Override
+    public  double caclulateFualConsumpttion (double distance) {
+        return  distance * 0.7;
+    }
+
+
 
     // информация
     public void displayInfo () {

@@ -5,3 +5,4 @@ public class Polymorphism {
         System.out.println("Polymorphism");
     }
 }
+

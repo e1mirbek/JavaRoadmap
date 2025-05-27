@@ -3,7 +3,8 @@ package oop.abstraction.autopark;
 public class Truck extends AbstractVehicle {
     private double cargoCapacity;
 
-    Truck(double cargoCapacity) {
+   public Truck(String model, int year, double cargoCapacity) {
+       super(model, year);
         this.cargoCapacity = cargoCapacity;
     }
 
@@ -18,8 +19,8 @@ public class Truck extends AbstractVehicle {
     }
 
     @Override
-    public double calculateFuelConsumption (double distance) {
-        return distance * 0.2;
+    public double caclulateFualConsumpttion (double distance) {
+        return  distance * 0.9;
     }
 
     // информация
