@@ -1,10 +1,10 @@
 package oop.abstraction.animal;
 
 interface interfaceSoundMaker {
-    void makeSound(); // абстрактный метод
+    void makeSound();
 
     // default-методы (с реализацией)
-    default void stopSound() {  // default-метод
+    default void stopSound() {
         System.out.println("Звук прекратился");
     }
 }
