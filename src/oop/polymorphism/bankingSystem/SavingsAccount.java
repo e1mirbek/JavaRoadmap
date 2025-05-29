@@ -22,6 +22,4 @@ public class SavingsAccount extends  BankAccount {
         System.out.println("На счет + " + acccountNumber + "вынесено" + amount);
         return  balance;
     }
-
-
 }
