@@ -16,6 +16,5 @@ public class Main {
         for (Shape shape : shapes){
             System.out.println("Площадь фигуры : " + shape.getArea());
         }
-
     }
 }
