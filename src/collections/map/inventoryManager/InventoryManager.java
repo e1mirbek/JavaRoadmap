@@ -26,8 +26,6 @@ public class InventoryManager {
         } else {
             System.out.println("Такого товара нет в нашем магазине !!! ");
         }
-
-
     }
 
 }
