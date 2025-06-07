@@ -17,6 +17,5 @@ public class WordCounter {
         }
         System.out.println("Частота слов : ");
         wordCount.forEach((key, value) -> System.out.println(key + " " + value));
-
     }
 }
