@@ -11,7 +11,7 @@ public class ParseIntExample {
             String input = scanner.nextLine();
             int myNumber = Integer.parseInt(input);
             System.out.println("Вы ввели число " + myNumber);
-        } catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             System.out.println("Ошибка: Введите корректное число!");
         }
     }
