@@ -1,8 +1,6 @@
 package exceptions.arrayGoingBeyondBoundaries;
 
 
-
-
 // Массив и выход за границы
 public class ArrayExample {
     public static void main(String[] args) {
