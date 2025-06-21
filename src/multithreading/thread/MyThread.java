@@ -1,21 +1,21 @@
 package multithreading.thread;
 
 public class MyThread extends Thread {
+    private final  int threadNumber;
 
-
-
+    public MyThread (int threadNumber) {
+        this.threadNumber = threadNumber;
+    }
     // run() содержит код который выполнится внутри этого потока
-
     @Override
     public void run () {
-        System.out.println("Привет из потока " + Thread.currentThread().getName());
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i + " Из патока №" + threadNumber);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
-
-    // start() запускает поток (асинхронно)
-
-    public static void main(String[] args) {
-        MyThread thread = new MyThread();
-        thread.start();
-    }
-
 }
