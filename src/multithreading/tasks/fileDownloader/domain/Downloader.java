@@ -1,4 +1,6 @@
 package multithreading.tasks.fileDownloader.domain;
 
-public class Downloader {
+public interface Downloader {
+    void  download (DownloadTask task);
 }
+
