@@ -8,7 +8,7 @@ public class Test {
     public static void main(String[] args) {
 
 
-        // Создаем список для хранение четных чисел
+        // Создаем список для хранение  чисел
 
         List <Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
