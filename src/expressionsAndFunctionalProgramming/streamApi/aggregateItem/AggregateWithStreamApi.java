@@ -24,3 +24,4 @@ public class AggregateWithStreamApi {
         return numbers.stream().mapToInt(Integer::intValue).average().orElseThrow(() -> new IllegalArgumentException("Ошибка список пуст !!! "));
     }
 }
+

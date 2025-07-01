@@ -38,3 +38,4 @@ public class AggregateClassic {
         return (double) sumAggregateClassic(numbers) / numbers.size();
     }
 }
+
