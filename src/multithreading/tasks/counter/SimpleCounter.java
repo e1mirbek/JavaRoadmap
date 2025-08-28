@@ -14,6 +14,4 @@ public class SimpleCounter {
     public int get () {
         return count;
     }
-
-
 }

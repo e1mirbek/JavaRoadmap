@@ -24,7 +24,6 @@ public class Main {
                 throw new RuntimeException(e);
             }
         }
-
         System.out.println("Counter = " + counter.get());
     }
 }

@@ -1,0 +1,23 @@
+
+
+Программа на Java с Generics и чистой архитектурой
+generic Repo программа,
+демонстрирующая использование Generics в Java с чистой архитектурой.
+Представляет собой простую систему управления репозиториями с типами-дженериками.
+
+Структура проекта
+
+src/
+├── main/
+│   ├── java/
+│   │   ├── repository/
+│   │   │   ├── Repository.java
+│   │   │   └── InMemoryRepository.java
+│   │   ├── model/
+│   │   │   ├── Entity.java
+│   │   │   ├── User.java
+│   │   │   └── Product.java
+│   │   ├── service/
+│   │   │   ├── UserService.java
+│   │   │   └── ProductService.java
+│   │   └── Main.java

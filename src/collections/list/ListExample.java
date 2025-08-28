@@ -66,7 +66,6 @@ public class ListExample {
             numbersArrayList.add(0, i);
             numbersLinkedList.add(0, i);
         }
-
         System.out.println(numbersLinkedList);
     }
 }

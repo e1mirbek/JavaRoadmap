@@ -29,7 +29,6 @@ public class PhoneBook {
                     for (Contact contact : contacts) {
                         if (contact.name.toLowerCase().contains(findName)) {
                             System.out.println(contact);
-
                         }
                     }
                     break;

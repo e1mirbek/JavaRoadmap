@@ -1,0 +1,14 @@
+
+
+
+orderprocessor/
+├── Main.java
+├── domain/
+│   ├── Order.java
+│   └── OrderHandler.java
+├── usecase/
+│   └── OrderProcessingUseCase.java
+├── controller/
+│   └── OrderController.java
+├── infrastructure/
+│   └── FakeOrderHandler.java

@@ -1,9 +1,11 @@
 package expressionsAndFunctionalProgramming.streamApi.aggregateItem;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
+
         List <Integer> numbers = Arrays.asList(5, 6, 9, 8, 5, 2, 55, 18);
 
         // определение обьектов

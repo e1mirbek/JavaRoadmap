@@ -28,7 +28,7 @@ public class Bank {
     }
 
 
-     // setter для операцций
+     // setter для установки операцций
     public void setBalance(double amount) {
         if (amount > 0) {
             balance += amount;

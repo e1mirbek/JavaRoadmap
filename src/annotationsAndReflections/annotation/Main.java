@@ -45,7 +45,6 @@ public class Main {
                 method.invoke(new MyTest());
             }
         }
-
     }
 }
 

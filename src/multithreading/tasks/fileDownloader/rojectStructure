@@ -1,0 +1,13 @@
+
+
+filedownloader/
+├── Main.java
+├── domain/
+│   ├── DownloadTask.java
+│   └── Downloader.java
+├── usecase/
+│   └── DownloadUseCase.java
+├── controller/
+│   └── DownloadController.java
+├── infrastructure/
+│   └── FakeDownloader.java
