@@ -16,7 +16,7 @@ public class FourthLs {
 
         name = "Elmirbek";
 
-        Striing text2 = "Hello World";
+        String text2 = "Hello World";
 
     }
 
