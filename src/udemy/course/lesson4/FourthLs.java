@@ -7,7 +7,7 @@ public class FourthLs {
 
     void main () {
 
-        // локеальные переменные
+        // локальные переменные
 
 
 
