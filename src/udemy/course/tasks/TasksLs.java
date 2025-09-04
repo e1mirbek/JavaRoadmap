@@ -17,7 +17,7 @@ public class TasksLs {
         int number3 = 50;
 
         int sum = number + number1 + number2 + number3;
-        System.out.println(sum);
+        System.out.println("Сумма : " + sum);
 
         // найти среднее значение
 
