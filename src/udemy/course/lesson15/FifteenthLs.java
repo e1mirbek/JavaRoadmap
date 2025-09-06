@@ -27,6 +27,7 @@ public class FifteenthLs {
         System.out.println("Фамилия : " + lastName);
         System.out.println("Возраст : " + age);
 
+
     }
 
 }
